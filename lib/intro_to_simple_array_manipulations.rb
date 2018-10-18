@@ -4,14 +4,14 @@ end
 
 def using_unshift(array, string)
   #ad(unshift)ds el to front 
-  array.unshift
+  array.unshift(string)
 end
 
 def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, num)
+def pop_with_args(array)
   num.times do
     array.pop
   end
